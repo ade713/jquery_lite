@@ -1,5 +1,38 @@
-div {
-  background-color: red;
-  height: 90px;
-  width: 90px;
+body {
+  background-color: #eeeeee;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color:blue;
+  text-decoration: none;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  height: 40px
+}
+
+#logo {
+  height: 40px;
+  background-image: url(http://logos-download.com/wp-content/uploads/2016/05/ESPN_logo_red_bg.jpg);
+  background-size: cover;
+}
+
+#main-img {
+  height: 300px;
+  background-image: url(http://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2015%2F1104%2Fr22992_1296x518_5-2.jpg&w=800&h=320&scale=crop&cquality=80&location=origin);
+  background-size: cover;
+}
+
+.side-headlines {
+  height: 300px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
